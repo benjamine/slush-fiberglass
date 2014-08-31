@@ -1,0 +1,36 @@
+{
+  "name": "slush-fiberglass",
+  "version": "0.0.0",
+  "description": "slush generator for js libraries",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamine/slush-fiberglass.git"
+  },
+  "keywords": [
+    "slushgenerator",
+    "javascript",
+    "library"
+  ],
+  "author": "Benjamin Eidelman <beneidel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjamine/slush-fiberglass/issues"
+  },
+  "homepage": "https://github.com/benjamine/slush-fiberglass",
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-conflict": "^0.2.0",
+    "gulp-if": "^1.2.4",
+    "gulp-install": "^0.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "inquirer": "^0.6.0",
+    "through2": "^0.6.1",
+    "underscore.string": "^2.3.3"
+  }
+}
