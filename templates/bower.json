@@ -1,0 +1,24 @@
+{
+  "name": "<%= package.name %>",
+  "description": "<%= package.description %>",
+  "main": "build/<%= package.name %>.js",
+  "license": "MIT",
+  "authors": [
+    "<%= package.author %>"
+  ],
+  "repository": {
+    "type": "<%= package.repository && package.repository.type %>",
+    "url": "<%= package.repository && package.repository.url %>"
+  },
+  "keywords": [
+    "<%= package.keywords && package.keywords.join('\",\n\t\t\"') %>"
+  ],
+  "ignore": [
+    "test",
+    "demo",
+    "docs",
+    ".travis.yml",
+    "karma.conf.js",
+    "gulpfile.js"
+  ]
+}
