@@ -1,6 +1,6 @@
 {
   "name": "slush-fiberglass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "slush generator for js libraries",
   "main": "slushfile.js",
   "scripts": {
