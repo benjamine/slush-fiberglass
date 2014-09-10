@@ -1,6 +1,6 @@
 {
   "name": "slush-fiberglass",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "slush generator for js libraries",
   "main": "slushfile.js",
   "scripts": {
@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/benjamine/slush-fiberglass",
   "dependencies": {
-    "gulp": "^3.8.7",
+    "gulp": "^3.8.8",
     "gulp-conflict": "^0.2.0",
     "gulp-if": "^1.2.4",
     "gulp-install": "^0.2.0",
     "gulp-rename": "^1.2.0",
-    "gulp-template": "^1.0.0",
+    "gulp-template": "^1.0.1",
     "gulp-util": "^3.0.1",
-    "inquirer": "^0.6.0",
+    "inquirer": "^0.7.1",
     "through2": "^0.6.1",
     "underscore.string": "^2.3.3"
   }
