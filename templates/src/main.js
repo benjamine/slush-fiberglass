@@ -4,20 +4,18 @@
 // exports.MyClass = require('my-class').MyClass;
 
 <% if (browser) {%>
-// detect runtime
-var inNode = typeof process !== 'undefined' && typeof process.execPath === 'string';
-if (inNode) {
+if (process.browser) {
+  // exports only for browser bundle
+  exports.version = '{{package-version}}';
+  exports.homepage = '{{package-homepage}}';
+} else {
   // exports only for node.js
-  var packageInfo = require('../package' + '.json');
+  var packageInfo = require('../pack'+'age.json');
   exports.version = packageInfo.version;
   exports.homepage = packageInfo.homepage;
-} else {
-  // exports only for browser bundle
-	exports.homepage = '{{package-homepage}}';
-	exports.version = '{{package-version}}';
 }
 <%}else{%>
-var packageInfo = require('../package' + '.json');
+var packageInfo = require('../pack'+'age.json');
 exports.version = packageInfo.version;
 exports.homepage = packageInfo.homepage;
 <%}%>
