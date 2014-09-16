@@ -1,7 +1,7 @@
 {
   "name": "<%= package.name %>",
   "description": "<%= package.description %>",
-  "main": "build/<%= package.name %>.js",
+  "main": "public/build/<%= package.name %>.js",
   "license": "MIT",
   "authors": [
     "<%= package.author %>"

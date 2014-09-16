@@ -3,8 +3,8 @@ module.exports = function(config) {
     basePath: '.',
     frameworks: ['mocha'],
     files: [
-      'build/<%= package.name %>.js',
-      'build/test-bundle.js'
+      'public/build/<%= package.name %>.js',
+      'public/build/test-bundle.js'
     ],
     reporters : ['spec', 'growler']
   });
