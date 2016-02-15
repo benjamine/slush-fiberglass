@@ -1,0 +1,2 @@
+
+// exports.something = require('./something');

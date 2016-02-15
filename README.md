@@ -3,12 +3,8 @@ slush-fiberglass
 
 slush generator for js libraries
 
-- gulp
-- jshint
+- eslint
 - mocha
 - istanbul
 - codeclimate
-- browserify
 - travis
-- bower
-- karma
